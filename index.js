@@ -1,8 +1,10 @@
 import express from "express";
 import {v4 as uuidv4} from "uuid"; 
+import cors from "cors";
 
 const server = express();
 server.use(express.json());
+server.use(cors());
 
 const port =process.env.PORT || 8080;
 
