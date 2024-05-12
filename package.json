@@ -12,6 +12,6 @@
   "dependencies": {
     "express": "^4.19.2",
     "uuid": "^9.0.1",
-    "cors"; "^2.8.5",
+    "cors": "^2.8.5",
   }
 }
