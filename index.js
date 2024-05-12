@@ -23,4 +23,4 @@ server.post("/turnos", (req, res) => {
     res.status(201).json({success: true, message:"Agendado correctamente", data:turnos});
 })
 
-server.listen(port, ()=> console.log(`Server ready! -> http://localhost:${port}`));
+server.listen(port, ()=> console.log(`Server ready! -> https://barbera-reserva.onrender.com`));
