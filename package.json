@@ -1,0 +1,15 @@
+{
+  "name": "barberia_api",
+  "version": "1.0.0",
+  "description": "consulta a api de reserva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}
